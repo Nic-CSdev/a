@@ -1,0 +1,133 @@
+@media (min-width: 1920px){
+
+    .header{
+        padding-bottom: 30px;
+    }
+
+    .header img{
+        width: 250px;
+    }
+
+    .panel .mockups img{
+        width: 900px;
+    }
+
+    .panel .content{
+        width: 800px;
+        height: 500px;
+    }
+
+    .panel .content h2{
+        font-size: 6rem;
+    }
+
+    .panel .content p{
+        font-size: 2.8rem;
+        padding-bottom: 60px;
+    }
+
+    .panel .content a{
+        padding: 20px 90px;
+        font-size: 3rem;
+    }
+
+    .social a{
+        font-size: 3.2rem;
+        padding: 20px;
+        height: 30px;
+        width: 30px;
+        transform: translateY(90px);
+    }
+}
+
+@media (max-width: 1024px){
+
+    .panel .mockups img{
+        width: 50rem;
+    }
+
+    .panel .content h2{
+        font-size: 2.7rem;
+    }
+}
+
+@media (max-width: 768px){
+
+    body{
+        background-image: url('../images/bg-mobile.svg');
+        background-size: 800px;   
+    }
+
+    .panel{
+        flex-direction: column;
+    }
+
+    .panel .mockups img{
+        width: 60rem;
+    }
+
+    .panel .mockups{
+        padding-bottom: 100px;
+    }
+
+    .panel .content{
+        width: 500px;
+        text-align: center;
+    }
+
+    .panel .content p{
+        padding-bottom: 60px;
+        font-size: 2rem;
+    }
+
+    .panel .content a{
+        padding: 20px 150px;
+    }
+
+    .social{
+        justify-content: center;
+        padding-top: 150px;
+        gap: 10px;
+        padding-bottom: 100px;
+        padding-left: 60px;
+    }
+}
+
+@media (max-width: 425px){
+
+    body{
+        background-size: 400px;
+    }
+
+  
+    .panel .mockups img{
+        display: flex;
+        justify-content: center;
+        width: 27rem;
+    }
+
+    .panel .content h2{
+        font-size: 2.5rem;
+    }
+
+    .panel .content p{
+        font-size: 2rem;
+    }
+
+    .panel .content a{
+        padding: 20px 100px;
+    }
+
+    .panel .content{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        width: 30rem;
+    }
+
+    .panel .content h2 p a{
+        padding: 0 auto;
+    }
+
+}

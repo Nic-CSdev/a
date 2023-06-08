@@ -57,13 +57,19 @@
         background-image: url('../images/bg-mobile.svg');
         background-size: 800px;   
     }
-
+    
     .panel{
         flex-direction: column;
     }
 
+    .panel .mockups{
+        display: flex;
+        justify-content: center;
+        margin-left: 0;
+    }
+
     .panel .mockups img{
-        width: 60rem;
+        width: 40rem;
     }
 
     .panel .mockups{
@@ -86,9 +92,9 @@
 
     .social{
         justify-content: center;
-        padding-top: 150px;
+        padding-top: 80px;
         gap: 10px;
-        padding-bottom: 100px;
+        padding-bottom: 0px;
         padding-left: 60px;
     }
 }
@@ -96,26 +102,30 @@
 @media (max-width: 425px){
 
     body{
-        background-size: 400px;
+        background-size: 420px;
     }
 
-  
-    .panel .mockups img{
+    .container{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;     
+    }
+
+    .container .header img{
+        width: 150px;
+        margin-left: 30px;
+        margin-top: 30px;
+    }
+
+    .panel .mockups{
         display: flex;
         justify-content: center;
-        width: 27rem;
+        padding-bottom: 70px;
+        margin-left: 0;
     }
-
-    .panel .content h2{
-        font-size: 2.5rem;
-    }
-
-    .panel .content p{
-        font-size: 2rem;
-    }
-
-    .panel .content a{
-        padding: 20px 100px;
+  
+    .panel .mockups img{
+        width: 350px;
     }
 
     .panel .content{
@@ -124,10 +134,39 @@
         justify-content: center;
         align-items: center;
         width: 30rem;
+        padding: 0;
     }
 
-    .panel .content h2 p a{
-        padding: 0 auto;
+    .panel .content h2{
+        font-size: 2.5rem;
+        font-weight: 400;
+    }
+
+    .panel .content p{
+        font-size: 1.7rem;
+        letter-spacing: .1rem;
+    }
+
+    .panel .content a{
+        font-size: 1.5rem;
+        padding: 15px 90px;
+    }
+
+    .panel .content p{
+        padding-bottom: 25px;
+    }
+
+    .social{
+        padding: 70px 0 0 0;
+        gap: 15px;
+
+    }
+
+    .social a{
+        font-size: 1.5rem;
+        width: 15px;
+        height: 15px;
+        text-align: center;
     }
 
 }

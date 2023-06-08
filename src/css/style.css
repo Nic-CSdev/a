@@ -48,7 +48,7 @@ body{
 }
 
 .panel .content a{
-    font-family: 'Open Sans', sans-serif;
+    font-family: 'Poppins', sans-serif;
     color: #674BB0;
     background-color: #fff;
     font-size: 1.8rem;
@@ -72,7 +72,9 @@ body{
 }
 
 .social a{
-    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 10px;
     width: 20px;
     height: 20px;
